@@ -1,10 +1,8 @@
 body{
-    margin:0px;
+    margin:0 auto;
     background-color:#EDF2C5;
     width:1260px;
-    height:940px;
-    margin-left:auto;
-    margin-right:auto;
+    height:880px;
     
 }
 
@@ -25,12 +23,13 @@ header{
 }
 
 .title{
+
+    box-sizing: border-box;
     width: 271px;
     height: 42px;
     font-family: Arial;
     font-size: 44px;
     font-weight: 900;
-    font-stretch: normal;
     font-style: normal;
     line-height: 0.82;
     letter-spacing: normal;
@@ -229,15 +228,9 @@ margin-left:10px;
 
 
 footer{
-    width: 1264px;
-    height: 60px;
+    margin:0;
     background-color: #778a50;
     margin-top:35px;
-    z-index:-3;
-}
-
-.footer-text{
-    margin:0;
     width: 301px;
     height: 14px;
     font-family: Arial;
